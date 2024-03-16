@@ -1,0 +1,35 @@
+/* css/style.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+#game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-canvas {
+  border: 1px solid #fff;
+}
+
+#game-ui {
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
